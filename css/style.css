@@ -92,7 +92,6 @@ body {
     padding: 10px;
     border-radius: 20px;
     border: 1px solid black;
-    width: 380px;
   }
 
   .box img{
@@ -107,3 +106,24 @@ body {
     align-items: center;
     font-size: larger;
   }
+
+ .box1{
+  background-color: aqua;
+ }
+
+ .box2{
+  background-color: lightpink;
+ }
+ .box3{ 
+  background-color: lightgreen;
+ }
+
+ .book{
+  display: flex;
+  margin-top: 10px;
+ }
+
+#pg{
+  text-align: center;
+  margin-top: 23px;
+}
