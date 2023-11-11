@@ -10,26 +10,15 @@ body {
     width: 100%;
     font-family: "Agbalumo";
   }
-  header nav {
-    position: relative;
-    top: -0px;
-  }
-  
-  header nav img {
-    width: 150px;
-  }
-  /* header img {
-    width: 100%;
-    height: 550px;
-  } */
+
   header ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+   
     /* background-color: rgba(255,255,255,0.5); */
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
   }
   
   header li a {
@@ -37,14 +26,16 @@ body {
     display: inline-block;
     color: black;
     padding: 2px;
-    /* text-align: center; */
     margin-left: 15px;
     text-decoration: none;
     font-weight: 900;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.6);
   }
-  
+  header li a:hover {
+      color: red;
+      font-size: larger;
+  }
   header section {
     text-align: center;
     margin: 120px 0;
@@ -66,9 +57,25 @@ body {
     color: black;
   }
   nav {
-    display: flex;
-    justify-content: space-between;
+    background-color: black;
     padding: 10px;
   }
   
 
+
+  .footer {
+    height: 120px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .last {
+    font-size: 10px;
+    color: grey;
+  }
+  .end {
+    color: red;
+  }
