@@ -11,6 +11,7 @@ section p.center{
 .grid-box{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    margin: 10px;
 }
 
 .grid-box-item{
@@ -19,8 +20,17 @@ section p.center{
     width: 260px;
     border-radius: 20px;
     border: 1px solid black;
+    position: relative;
+    box-shadow: 10px 10px 10px grey;
 }
 
 .grid-box-item img{
     width: 100%;}
-    
+
+ .sml-area {
+            margin: 10px;
+            height: 40px;
+            bottom: 0px;
+            background-color: lightcyan;
+            text-align: center;
+        }
